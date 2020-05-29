@@ -1,3 +1,4 @@
+// 単一始点最短距離
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -26,7 +27,7 @@ signed main() {
         P p = q.top();
         q.pop();
         int v = p.second;
-        if (dis[v] < p.first){  // 
+        if (dis[v] < p.first){
             continue;
         }
         for(auto e : graph[v]) {
