@@ -1,7 +1,6 @@
-/**
- * おせんべい
- * https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e
- */
+// おせんべい
+// 所要時間 x分
+// 自力で解けなかった気がする
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
